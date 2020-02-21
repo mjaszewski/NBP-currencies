@@ -1,17 +1,20 @@
-import React from 'react';
-import PropTypes from 'prop-types'
+import React from "react";
+import PropTypes from "prop-types"
 
-import {Table, Header, Dimmer, Loader, Segment, Button} from 'semantic-ui-react';
+import {Table, Header, Dimmer, Loader, Segment, Button} from "semantic-ui-react";
 
-const CurrencyTable = ({tableName, data, date, handleAddFavourite, isLoading}) => {
+const CurrencyTable = ({tableName, data, date, handleAddFavourite, isLoading, favourites}) => {
     const renderBody = data && data.map(item => {
+
         return (
             <Table.Row key={item.code}>
                 <Table.Cell>{item.currency}</Table.Cell>
                 <Table.Cell>{item.code}</Table.Cell>
                 <Table.Cell>{item.mid}</Table.Cell>
                 <Table.Cell width={3}>
-                    <Button positive onClick={handleAddFavourite(item.code, tableName)}>Add to favourite</Button>
+                    <Button positive
+                            disabled={favourites && favourites.includes(item.code)}
+                            onClick={handleAddFavourite(item.code, tableName)}>Add to favourite</Button>
                 </Table.Cell>
             </Table.Row>
         )
@@ -20,7 +23,7 @@ const CurrencyTable = ({tableName, data, date, handleAddFavourite, isLoading}) =
     return (
         <Segment>
             <Dimmer active={isLoading}>
-                <Loader />
+                <Loader/>
             </Dimmer>
             <Header>Table {tableName} - {date}</Header>
             <Table celled>
@@ -45,7 +48,8 @@ CurrencyTable.propTypes = {
     data: PropTypes.array,
     date: PropTypes.string,
     handleAddFavourite: PropTypes.func,
-    isLoading: PropTypes.bool
+    isLoading: PropTypes.bool,
+    favourites: PropTypes.array,
 };
 
 export default CurrencyTable

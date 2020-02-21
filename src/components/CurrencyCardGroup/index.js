@@ -1,1 +1,1 @@
-export { default } from "./CurrencyCardGroup"
+export {default} from "./CurrencyCardGroup"

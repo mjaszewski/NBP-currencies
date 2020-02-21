@@ -1,5 +1,6 @@
-import * as currenciesActions from '../actions/currencies';
-import {call, put, takeEvery, all} from 'redux-saga/effects'
+import * as currenciesActions from "../actions/currencies";
+import {call, put, takeEvery, all} from "redux-saga/effects"
+import {toastr} from 'react-redux-toastr'
 
 export function* getCurrenciesData(action) {
     try {
@@ -7,7 +8,7 @@ export function* getCurrenciesData(action) {
         const data = yield response.json();
         yield put(currenciesActions.getDataCurrenciesDone(data, action.payload));
     } catch (e) {
-        yield put(currenciesActions.getDataCurrenciesFailed(e));
+        toastr.error('Error', e);
     }
 }
 

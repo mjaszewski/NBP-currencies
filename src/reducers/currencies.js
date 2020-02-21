@@ -1,8 +1,8 @@
-import {GET_DATA_REQUESTED, GET_DATA_DONE, GET_DATA_FAILED} from '../actions/currencies';
+import {GET_DATA_REQUESTED, GET_DATA_DONE, GET_DATA_FAILED} from "../actions/currencies";
 
 const initialState = [
-    {name: 'A', isLoading: true, data: {}},
-    {name: 'B', isLoading: true, data: {}},
+    {name: "A", isLoading: true, data: {}},
+    {name: "B", isLoading: true, data: {}},
 ];
 
 export default (state = initialState, action) => {

@@ -1,7 +1,8 @@
-import React, {Component} from 'react';
-import PropTypes from 'prop-types'
-import {connect} from 'react-redux';
-import {bindActionCreators} from 'redux';
+import React, {Component} from "react";
+import PropTypes from "prop-types"
+import {connect} from "react-redux";
+import {bindActionCreators} from "redux";
+import {toastr} from 'react-redux-toastr'
 import CurrencyTable from "../CurrencyTable/CurrencyTable";
 import {getDataCurrenciesRequested, getDataCurrenciesDone} from "../../actions/currencies"
 import {addFavouriteCurrency} from "../../actions/favouriteCurrencies"
@@ -15,21 +16,23 @@ class TableGroup extends Component {
 
     addFavourite = (code, tableName) => () => {
         const {currencies} = this.props;
-        const table = currencies.find(currencyTable => currencyTable.name = tableName);
-        const currency = table.data.rates.find(currency => currency.code = code)
+        const table = currencies.find(currencyTable => currencyTable.name === tableName);
+        const currency = table.data.rates.find(currency => currency.code === code)
         currency.date = table.data.effectiveDate;
         this.props.addFavouriteCurrency(currency);
+        toastr.success("Success", "Currency was successfully added to favourites");
     };
 
     render() {
         const {currencies, favouriteCurrencies} = this.props;
+        const favouriteCurrenciesCodes = favouriteCurrencies.map(currency => currency.code)
         return (
             <div>
                 {currencies.map(table => {
                         const {data: {effectiveDate, rates}} = table;
                         return (<CurrencyTable key={table.name} tableName={table.name} data={rates} date={effectiveDate}
                                                handleAddFavourite={this.addFavourite} isLoading={table.isLoading}
-                                               favourite={favouriteCurrencies}/>)
+                                               favourites={favouriteCurrenciesCodes}/>)
                     }
                 )}
             </div>

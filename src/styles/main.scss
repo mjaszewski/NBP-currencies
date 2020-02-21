@@ -1,4 +1,5 @@
 @import "~semantic-ui-css/semantic.min.css";
+@import '~react-redux-toastr/src/styles/index';
 @import "variables";
 
 .container {
@@ -7,4 +8,12 @@
 
 .delete-button-container {
   margin-bottom: $margin-xl;
+}
+
+.ui.card {
+  max-width: 263px;
+}
+
+.ui.message.no-display-message {
+  margin: 0 auto $margin-xl auto;
 }
