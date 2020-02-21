@@ -6,11 +6,7 @@ import { Header, Container, Tab } from 'semantic-ui-react';
 import TableGroup from "./components/TableGroup"
 import CurrencyCardGroup from "./components/CurrencyCardGroup"
 
-
 class App extends Component {
-
-    componentDidMount() {}
-
     getPanes = () => [
         {
             menuItem: 'Currency list',
@@ -34,9 +30,5 @@ class App extends Component {
     }
 }
 
-function mapStateToProps() {
-    return {}
-}
-
-export default connect(mapStateToProps, {})(App);
+export default connect(null, null)(App);
 

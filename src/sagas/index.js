@@ -1,3 +1,8 @@
+import { getDataSaga } from './sagas';
+import { all, fork } from 'redux-saga/effects'
+
 export function* rootSaga() {
-    yield [];
+    yield all([
+        fork(getDataSaga)
+    ]);
 }
