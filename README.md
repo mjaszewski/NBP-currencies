@@ -21,3 +21,13 @@ npm start
 ```js
 npm run build
 ```
+
+## Testing
+```js
+npm run test
+```
+
+## Update snapshot tests
+```js
+npm run updateSnapshot
+```
