@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Currency Card renders correctly 1`] = `
+<CurrencyCard
+  code="THB"
+  date="2020-02-21"
+  handleDelete={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "THB",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  name="bat (Tajlandia)"
+  value={0.1252}
+>
+  <Card>
+    <div
+      className="ui card"
+      onClick={[Function]}
+    >
+      <CardContent>
+        <div
+          className="content"
+        >
+          <CardHeader>
+            <div
+              className="header"
+            >
+              bat (Tajlandia)
+               - 
+              2020-02-21
+            </div>
+          </CardHeader>
+          <CardMeta>
+            <div
+              className="meta"
+            >
+              THB
+            </div>
+          </CardMeta>
+          <CardDescription>
+            <div
+              className="description"
+            >
+              <strong>
+                0.1252
+                 zł
+              </strong>
+            </div>
+          </CardDescription>
+        </div>
+      </CardContent>
+      <CardContent
+        extra={true}
+      >
+        <div
+          className="extra content"
+        >
+          <div
+            className="ui one buttons"
+          >
+            <Button
+              as="button"
+              basic={true}
+              className="remove-favourite"
+              negative={true}
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui basic negative button remove-favourite"
+                    >
+                      Remove
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui basic negative button remove-favourite"
+                      >
+                        Remove
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui basic negative button remove-favourite"
+                    onClick={[Function]}
+                  >
+                    Remove
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </div>
+        </div>
+      </CardContent>
+    </div>
+  </Card>
+</CurrencyCard>
+`;

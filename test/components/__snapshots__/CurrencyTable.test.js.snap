@@ -1,0 +1,3698 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Currency Table renders correctly 1`] = `
+<CurrencyTable
+  data={
+    Array [
+      Object {
+        "code": "THB",
+        "currency": "bat (Tajlandia)",
+        "mid": 0.1252,
+      },
+      Object {
+        "code": "USD",
+        "currency": "dolar amerykański",
+        "date": "2020-02-21",
+        "mid": 3.9623,
+      },
+      Object {
+        "code": "AUD",
+        "currency": "dolar australijski",
+        "mid": 2.6122,
+      },
+      Object {
+        "code": "HKD",
+        "currency": "dolar Hongkongu",
+        "mid": 0.5088,
+      },
+      Object {
+        "code": "CAD",
+        "currency": "dolar kanadyjski",
+        "mid": 2.988,
+      },
+      Object {
+        "code": "NZD",
+        "currency": "dolar nowozelandzki",
+        "mid": 2.4998,
+      },
+      Object {
+        "code": "SGD",
+        "currency": "dolar singapurski",
+        "mid": 2.83,
+      },
+      Object {
+        "code": "EUR",
+        "currency": "euro",
+        "mid": 4.2831,
+      },
+      Object {
+        "code": "HUF",
+        "currency": "forint (Węgry)",
+        "mid": 0.012681,
+      },
+      Object {
+        "code": "CHF",
+        "currency": "frank szwajcarski",
+        "mid": 4.0367,
+      },
+      Object {
+        "code": "GBP",
+        "currency": "funt szterling",
+        "mid": 5.1178,
+      },
+      Object {
+        "code": "UAH",
+        "currency": "hrywna (Ukraina)",
+        "mid": 0.1619,
+      },
+      Object {
+        "code": "JPY",
+        "currency": "jen (Japonia)",
+        "mid": 0.035466,
+      },
+      Object {
+        "code": "CZK",
+        "currency": "korona czeska",
+        "mid": 0.1709,
+      },
+      Object {
+        "code": "DKK",
+        "currency": "korona duńska",
+        "mid": 0.5735,
+      },
+      Object {
+        "code": "ISK",
+        "currency": "korona islandzka",
+        "mid": 0.031014,
+      },
+      Object {
+        "code": "NOK",
+        "currency": "korona norweska",
+        "mid": 0.4244,
+      },
+      Object {
+        "code": "SEK",
+        "currency": "korona szwedzka",
+        "mid": 0.4045,
+      },
+      Object {
+        "code": "HRK",
+        "currency": "kuna (Chorwacja)",
+        "mid": 0.575,
+      },
+      Object {
+        "code": "RON",
+        "currency": "lej rumuński",
+        "mid": 0.8919,
+      },
+      Object {
+        "code": "BGN",
+        "currency": "lew (Bułgaria)",
+        "mid": 2.1899,
+      },
+      Object {
+        "code": "TRY",
+        "currency": "lira turecka",
+        "mid": 0.6481,
+      },
+      Object {
+        "code": "ILS",
+        "currency": "nowy izraelski szekel",
+        "mid": 1.1573,
+      },
+      Object {
+        "code": "CLP",
+        "currency": "peso chilijskie",
+        "mid": 0.004907,
+      },
+      Object {
+        "code": "PHP",
+        "currency": "peso filipińskie",
+        "mid": 0.0779,
+      },
+      Object {
+        "code": "MXN",
+        "currency": "peso meksykańskie",
+        "mid": 0.2092,
+      },
+      Object {
+        "code": "ZAR",
+        "currency": "rand (Republika Południowej Afryki)",
+        "mid": 0.2621,
+      },
+      Object {
+        "code": "BRL",
+        "currency": "real (Brazylia)",
+        "mid": 0.9017,
+      },
+      Object {
+        "code": "MYR",
+        "currency": "ringgit (Malezja)",
+        "mid": 0.9452,
+      },
+      Object {
+        "code": "RUB",
+        "currency": "rubel rosyjski",
+        "mid": 0.0615,
+      },
+      Object {
+        "code": "IDR",
+        "currency": "rupia indonezyjska",
+        "mid": 0.00028784,
+      },
+      Object {
+        "code": "INR",
+        "currency": "rupia indyjska",
+        "mid": 0.055077,
+      },
+      Object {
+        "code": "KRW",
+        "currency": "won południowokoreański",
+        "mid": 0.003274,
+      },
+      Object {
+        "code": "CNY",
+        "currency": "yuan renminbi (Chiny)",
+        "mid": 0.5633,
+      },
+      Object {
+        "code": "XDR",
+        "currency": "SDR (MFW)",
+        "mid": 5.405,
+      },
+    ]
+  }
+  date="20-02-2020"
+  favourites={
+    Array [
+      "THB",
+    ]
+  }
+  handleAddFavourite={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "THB",
+          "A",
+        ],
+        Array [
+          "USD",
+          "A",
+        ],
+        Array [
+          "AUD",
+          "A",
+        ],
+        Array [
+          "HKD",
+          "A",
+        ],
+        Array [
+          "CAD",
+          "A",
+        ],
+        Array [
+          "NZD",
+          "A",
+        ],
+        Array [
+          "SGD",
+          "A",
+        ],
+        Array [
+          "EUR",
+          "A",
+        ],
+        Array [
+          "HUF",
+          "A",
+        ],
+        Array [
+          "CHF",
+          "A",
+        ],
+        Array [
+          "GBP",
+          "A",
+        ],
+        Array [
+          "UAH",
+          "A",
+        ],
+        Array [
+          "JPY",
+          "A",
+        ],
+        Array [
+          "CZK",
+          "A",
+        ],
+        Array [
+          "DKK",
+          "A",
+        ],
+        Array [
+          "ISK",
+          "A",
+        ],
+        Array [
+          "NOK",
+          "A",
+        ],
+        Array [
+          "SEK",
+          "A",
+        ],
+        Array [
+          "HRK",
+          "A",
+        ],
+        Array [
+          "RON",
+          "A",
+        ],
+        Array [
+          "BGN",
+          "A",
+        ],
+        Array [
+          "TRY",
+          "A",
+        ],
+        Array [
+          "ILS",
+          "A",
+        ],
+        Array [
+          "CLP",
+          "A",
+        ],
+        Array [
+          "PHP",
+          "A",
+        ],
+        Array [
+          "MXN",
+          "A",
+        ],
+        Array [
+          "ZAR",
+          "A",
+        ],
+        Array [
+          "BRL",
+          "A",
+        ],
+        Array [
+          "MYR",
+          "A",
+        ],
+        Array [
+          "RUB",
+          "A",
+        ],
+        Array [
+          "IDR",
+          "A",
+        ],
+        Array [
+          "INR",
+          "A",
+        ],
+        Array [
+          "KRW",
+          "A",
+        ],
+        Array [
+          "CNY",
+          "A",
+        ],
+        Array [
+          "XDR",
+          "A",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  isLoading={false}
+  tableName="A"
+>
+  <Segment>
+    <div
+      className="ui segment"
+    >
+      <Dimmer
+        active={false}
+      >
+        <DimmerInner
+          active={false}
+        >
+          <Ref
+            innerRef={
+              Object {
+                "current": <div
+                  class="ui dimmer"
+                >
+                  <div
+                    class="content"
+                  >
+                    <div
+                      class="ui loader"
+                    />
+                  </div>
+                </div>,
+              }
+            }
+          >
+            <RefFindNode
+              innerRef={
+                Object {
+                  "current": <div
+                    class="ui dimmer"
+                  >
+                    <div
+                      class="content"
+                    >
+                      <div
+                        class="ui loader"
+                      />
+                    </div>
+                  </div>,
+                }
+              }
+            >
+              <div
+                className="ui dimmer"
+                onClick={[Function]}
+              >
+                <div
+                  className="content"
+                >
+                  <Loader>
+                    <div
+                      className="ui loader"
+                    />
+                  </Loader>
+                </div>
+              </div>
+            </RefFindNode>
+          </Ref>
+        </DimmerInner>
+      </Dimmer>
+      <Header>
+        <div
+          className="ui header"
+        >
+          Table 
+          A
+           - 
+          20-02-2020
+        </div>
+      </Header>
+      <Table
+        as="table"
+        celled={true}
+      >
+        <table
+          className="ui celled table"
+        >
+          <TableHeader
+            as="thead"
+          >
+            <thead
+              className=""
+            >
+              <TableRow
+                as="tr"
+                cellAs="td"
+              >
+                <tr
+                  className=""
+                >
+                  <TableHeaderCell
+                    as="th"
+                  >
+                    <TableCell
+                      as="th"
+                      className=""
+                    >
+                      <th
+                        className=""
+                      >
+                        Currency
+                      </th>
+                    </TableCell>
+                  </TableHeaderCell>
+                  <TableHeaderCell
+                    as="th"
+                  >
+                    <TableCell
+                      as="th"
+                      className=""
+                    >
+                      <th
+                        className=""
+                      >
+                        Code
+                      </th>
+                    </TableCell>
+                  </TableHeaderCell>
+                  <TableHeaderCell
+                    as="th"
+                  >
+                    <TableCell
+                      as="th"
+                      className=""
+                    >
+                      <th
+                        className=""
+                      >
+                        Value
+                      </th>
+                    </TableCell>
+                  </TableHeaderCell>
+                  <TableHeaderCell
+                    as="th"
+                  >
+                    <TableCell
+                      as="th"
+                      className=""
+                    >
+                      <th
+                        className=""
+                      >
+                        Actions
+                      </th>
+                    </TableCell>
+                  </TableHeaderCell>
+                </tr>
+              </TableRow>
+            </thead>
+          </TableHeader>
+          <TableBody
+            as="tbody"
+          >
+            <tbody
+              className=""
+            >
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="THB"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      bat (Tajlandia)
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      THB
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.1252
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={true}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive disabled button add-favourite-button"
+                                disabled=""
+                                tabindex="-1"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive disabled button add-favourite-button"
+                                  disabled=""
+                                  tabindex="-1"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive disabled button add-favourite-button"
+                              disabled={true}
+                              onClick={[Function]}
+                              tabIndex={-1}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="USD"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      dolar amerykański
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      USD
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      3.9623
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="AUD"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      dolar australijski
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      AUD
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      2.6122
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="HKD"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      dolar Hongkongu
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      HKD
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.5088
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="CAD"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      dolar kanadyjski
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      CAD
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      2.988
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="NZD"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      dolar nowozelandzki
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      NZD
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      2.4998
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="SGD"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      dolar singapurski
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      SGD
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      2.83
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="EUR"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      euro
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      EUR
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      4.2831
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="HUF"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      forint (Węgry)
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      HUF
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.012681
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="CHF"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      frank szwajcarski
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      CHF
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      4.0367
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="GBP"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      funt szterling
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      GBP
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      5.1178
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="UAH"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      hrywna (Ukraina)
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      UAH
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.1619
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="JPY"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      jen (Japonia)
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      JPY
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.035466
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="CZK"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      korona czeska
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      CZK
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.1709
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="DKK"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      korona duńska
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      DKK
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.5735
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="ISK"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      korona islandzka
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      ISK
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.031014
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="NOK"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      korona norweska
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      NOK
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.4244
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="SEK"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      korona szwedzka
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      SEK
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.4045
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="HRK"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      kuna (Chorwacja)
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      HRK
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.575
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="RON"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      lej rumuński
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      RON
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.8919
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="BGN"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      lew (Bułgaria)
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      BGN
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      2.1899
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="TRY"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      lira turecka
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      TRY
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.6481
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="ILS"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      nowy izraelski szekel
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      ILS
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      1.1573
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="CLP"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      peso chilijskie
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      CLP
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.004907
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="PHP"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      peso filipińskie
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      PHP
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.0779
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="MXN"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      peso meksykańskie
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      MXN
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.2092
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="ZAR"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      rand (Republika Południowej Afryki)
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      ZAR
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.2621
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="BRL"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      real (Brazylia)
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      BRL
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.9017
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="MYR"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      ringgit (Malezja)
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      MYR
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.9452
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="RUB"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      rubel rosyjski
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      RUB
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.0615
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="IDR"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      rupia indonezyjska
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      IDR
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.00028784
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="INR"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      rupia indyjska
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      INR
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.055077
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="KRW"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      won południowokoreański
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      KRW
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.003274
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="CNY"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      yuan renminbi (Chiny)
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      CNY
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      0.5633
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+              <TableRow
+                as="tr"
+                cellAs="td"
+                key="XDR"
+              >
+                <tr
+                  className=""
+                >
+                  <TableCell
+                    as="td"
+                    className="currency-name"
+                  >
+                    <td
+                      className="currency-name"
+                    >
+                      SDR (MFW)
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-code"
+                  >
+                    <td
+                      className="currency-code"
+                    >
+                      XDR
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    className="currency-value"
+                  >
+                    <td
+                      className="currency-value"
+                    >
+                      5.405
+                       zł
+                    </td>
+                  </TableCell>
+                  <TableCell
+                    as="td"
+                    width={3}
+                  >
+                    <td
+                      className="three wide"
+                    >
+                      <Button
+                        as="button"
+                        className="add-favourite-button"
+                        disabled={false}
+                        positive={true}
+                      >
+                        <Ref
+                          innerRef={
+                            Object {
+                              "current": <button
+                                class="ui positive button add-favourite-button"
+                              >
+                                Add to favourite
+                              </button>,
+                            }
+                          }
+                        >
+                          <RefFindNode
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui positive button add-favourite-button"
+                                >
+                                  Add to favourite
+                                </button>,
+                              }
+                            }
+                          >
+                            <button
+                              className="ui positive button add-favourite-button"
+                              onClick={[Function]}
+                            >
+                              Add to favourite
+                            </button>
+                          </RefFindNode>
+                        </Ref>
+                      </Button>
+                    </td>
+                  </TableCell>
+                </tr>
+              </TableRow>
+            </tbody>
+          </TableBody>
+        </table>
+      </Table>
+    </div>
+  </Segment>
+</CurrencyTable>
+`;

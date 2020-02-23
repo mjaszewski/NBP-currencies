@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render CurrencyCardGroup renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(CurrencyCardGroup)>
+    <CurrencyCardGroup
+      favouriteCurrencies={
+        Array [
+          Object {
+            "code": "THB",
+            "currency": "bat (Tajlandia)",
+            "date": "2020-02-21",
+            "mid": 0.1252,
+          },
+          Object {
+            "code": "USD",
+            "currency": "dolar amerykański",
+            "date": "2020-02-21",
+            "mid": 3.9623,
+          },
+        ]
+      }
+      removeAllFavouriteCurrency={[Function]}
+      removeFavouriteCurrency={[Function]}
+    >
+      <div>
+        <div
+          className="delete-button-container"
+        >
+          <Button
+            as="button"
+            disabled={false}
+            id="remove-all"
+            negative={true}
+            onClick={[Function]}
+          >
+            <Ref
+              innerRef={
+                Object {
+                  "current": <button
+                    class="ui negative button"
+                    id="remove-all"
+                  >
+                    Remove All
+                  </button>,
+                }
+              }
+            >
+              <RefFindNode
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui negative button"
+                      id="remove-all"
+                    >
+                      Remove All
+                    </button>,
+                  }
+                }
+              >
+                <button
+                  className="ui negative button"
+                  id="remove-all"
+                  onClick={[Function]}
+                >
+                  Remove All
+                </button>
+              </RefFindNode>
+            </Ref>
+          </Button>
+        </div>
+        <CardGroup>
+          <div
+            className="ui cards"
+          >
+            <CurrencyCard
+              code="THB"
+              date="2020-02-21"
+              handleDelete={[Function]}
+              key="bat (Tajlandia)"
+              name="bat (Tajlandia)"
+              value={0.1252}
+            >
+              <Card>
+                <div
+                  className="ui card"
+                  onClick={[Function]}
+                >
+                  <CardContent>
+                    <div
+                      className="content"
+                    >
+                      <CardHeader>
+                        <div
+                          className="header"
+                        >
+                          bat (Tajlandia)
+                           - 
+                          2020-02-21
+                        </div>
+                      </CardHeader>
+                      <CardMeta>
+                        <div
+                          className="meta"
+                        >
+                          THB
+                        </div>
+                      </CardMeta>
+                      <CardDescription>
+                        <div
+                          className="description"
+                        >
+                          <strong>
+                            0.1252
+                             zł
+                          </strong>
+                        </div>
+                      </CardDescription>
+                    </div>
+                  </CardContent>
+                  <CardContent
+                    extra={true}
+                  >
+                    <div
+                      className="extra content"
+                    >
+                      <div
+                        className="ui one buttons"
+                      >
+                        <Button
+                          as="button"
+                          basic={true}
+                          className="remove-favourite"
+                          negative={true}
+                          onClick={[Function]}
+                        >
+                          <Ref
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui basic negative button remove-favourite"
+                                >
+                                  Remove
+                                </button>,
+                              }
+                            }
+                          >
+                            <RefFindNode
+                              innerRef={
+                                Object {
+                                  "current": <button
+                                    class="ui basic negative button remove-favourite"
+                                  >
+                                    Remove
+                                  </button>,
+                                }
+                              }
+                            >
+                              <button
+                                className="ui basic negative button remove-favourite"
+                                onClick={[Function]}
+                              >
+                                Remove
+                              </button>
+                            </RefFindNode>
+                          </Ref>
+                        </Button>
+                      </div>
+                    </div>
+                  </CardContent>
+                </div>
+              </Card>
+            </CurrencyCard>
+            <CurrencyCard
+              code="USD"
+              date="2020-02-21"
+              handleDelete={[Function]}
+              key="dolar amerykański"
+              name="dolar amerykański"
+              value={3.9623}
+            >
+              <Card>
+                <div
+                  className="ui card"
+                  onClick={[Function]}
+                >
+                  <CardContent>
+                    <div
+                      className="content"
+                    >
+                      <CardHeader>
+                        <div
+                          className="header"
+                        >
+                          dolar amerykański
+                           - 
+                          2020-02-21
+                        </div>
+                      </CardHeader>
+                      <CardMeta>
+                        <div
+                          className="meta"
+                        >
+                          USD
+                        </div>
+                      </CardMeta>
+                      <CardDescription>
+                        <div
+                          className="description"
+                        >
+                          <strong>
+                            3.9623
+                             zł
+                          </strong>
+                        </div>
+                      </CardDescription>
+                    </div>
+                  </CardContent>
+                  <CardContent
+                    extra={true}
+                  >
+                    <div
+                      className="extra content"
+                    >
+                      <div
+                        className="ui one buttons"
+                      >
+                        <Button
+                          as="button"
+                          basic={true}
+                          className="remove-favourite"
+                          negative={true}
+                          onClick={[Function]}
+                        >
+                          <Ref
+                            innerRef={
+                              Object {
+                                "current": <button
+                                  class="ui basic negative button remove-favourite"
+                                >
+                                  Remove
+                                </button>,
+                              }
+                            }
+                          >
+                            <RefFindNode
+                              innerRef={
+                                Object {
+                                  "current": <button
+                                    class="ui basic negative button remove-favourite"
+                                  >
+                                    Remove
+                                  </button>,
+                                }
+                              }
+                            >
+                              <button
+                                className="ui basic negative button remove-favourite"
+                                onClick={[Function]}
+                              >
+                                Remove
+                              </button>
+                            </RefFindNode>
+                          </Ref>
+                        </Button>
+                      </div>
+                    </div>
+                  </CardContent>
+                </div>
+              </Card>
+            </CurrencyCard>
+          </div>
+        </CardGroup>
+      </div>
+    </CurrencyCardGroup>
+  </Connect(CurrencyCardGroup)>
+</Provider>
+`;

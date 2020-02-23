@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render App renders correctly 1`] = `
+<Container
+  className="container"
+>
+  <Header
+    as="h2"
+    textAlign="center"
+  >
+    NBP Currencies
+  </Header>
+  <Tab
+    grid={
+      Object {
+        "paneWidth": 12,
+        "tabWidth": 4,
+      }
+    }
+    menu={
+      Object {
+        "pointing": true,
+        "secondary": true,
+      }
+    }
+    panes={
+      Array [
+        Object {
+          "menuItem": "Currency list",
+          "render": [Function],
+        },
+        Object {
+          "menuItem": "Favourite currencies",
+          "render": [Function],
+        },
+      ]
+    }
+    renderActiveOnly={true}
+  />
+</Container>
+`;

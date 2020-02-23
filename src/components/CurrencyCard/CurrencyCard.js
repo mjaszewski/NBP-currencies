@@ -10,12 +10,12 @@ const CurrencyCard = ({name, code, value, date, handleDelete}) => {
                 <Card.Header>{name} - {date}</Card.Header>
                 <Card.Meta>{code}</Card.Meta>
                 <Card.Description>
-                    <strong>{value}</strong>
+                    <strong>{value} zł</strong>
                 </Card.Description>
             </Card.Content>
             <Card.Content extra>
                 <div className="ui one buttons">
-                    <Button basic negative onClick={handleDelete(code)}>
+                    <Button className="remove-favourite" basic negative onClick={handleDelete(code)}>
                         Remove
                     </Button>
                 </div>

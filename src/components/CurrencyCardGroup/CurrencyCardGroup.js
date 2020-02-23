@@ -26,7 +26,7 @@ class CurrencyCardGroup extends Component {
         return (
             <div>
                 <div className="delete-button-container">
-                    <Button negative disabled={favouriteCurrencies.length === 0} onClick={this.handleDeleteAll}>Remove
+                    <Button id="remove-all" negative disabled={favouriteCurrencies.length === 0} onClick={this.handleDeleteAll}>Remove
                         All</Button>
                 </div>
                 <Card.Group>

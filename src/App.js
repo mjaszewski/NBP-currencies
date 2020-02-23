@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import {connect} from "react-redux";
 import "./styles/main.scss";
 
 import { Header, Container, Tab } from "semantic-ui-react";
@@ -30,5 +29,5 @@ class App extends Component {
     }
 }
 
-export default connect(null, null)(App);
+export default App
 

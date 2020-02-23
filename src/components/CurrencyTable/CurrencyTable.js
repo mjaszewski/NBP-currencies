@@ -8,11 +8,13 @@ const CurrencyTable = ({tableName, data, date, handleAddFavourite, isLoading, fa
 
         return (
             <Table.Row key={item.code}>
-                <Table.Cell>{item.currency}</Table.Cell>
-                <Table.Cell>{item.code}</Table.Cell>
-                <Table.Cell>{item.mid}</Table.Cell>
+                <Table.Cell className="currency-name">{item.currency}</Table.Cell>
+                <Table.Cell className="currency-code">{item.code}</Table.Cell>
+                <Table.Cell className="currency-value">{item.mid} zł</Table.Cell>
                 <Table.Cell width={3}>
-                    <Button positive
+                    <Button
+                            className="add-favourite-button"
+                            positive
                             disabled={favourites && favourites.includes(item.code)}
                             onClick={handleAddFavourite(item.code, tableName)}>Add to favourite</Button>
                 </Table.Cell>
